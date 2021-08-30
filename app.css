@@ -1,0 +1,73 @@
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    font-size: 18px;
+    
+}
+body{
+    margin: 0;
+    height: 100%;
+    background: teal;
+    color: #FFF;
+    font-family: "Montsserat", sans-serif;
+    
+}
+
+
+.elemens-lists{
+    max-width: 1000px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 150px 14px;
+    text-align: center;
+}
+.elemens-list{
+    display: inline-block;
+    padding-right: 5%;
+    margin: 0;
+    color: inherit;
+    
+}
+.elemens-list a{
+    text-decoration: none;
+    color: inherit;
+    display: inline-block;
+    width: 128px;
+    height: 128px;
+    border-radius: 50%;
+    transition: all .4s ;
+    background: url(social_media.png) -256px top,#fff;
+}
+.elemens-list .ins{
+    background: url(social_media.png) -128px top, #fff;
+}
+.elemens-list .go{
+    background: url(social_media.png) 128px top,#fff;
+}
+.elemens-list .yo{
+    background: url(social_media.png) 256px top,#fff;
+}
+.elemens-list .tw{
+    background: url(social_media.png) 384px top,#fff;
+}
+
+.elemens-list .fb:hover{
+    background: url(social_media.png) -256px bottom,#fff;
+}
+.elemens-list .ins:hover{
+    background: url(social_media.png) -128px bottom,#fff;
+}
+.elemens-list .go:hover{
+    background: url(social_media.png) 128px bottom,#fff;
+}
+.elemens-list .yo:hover{
+    background: url(social_media.png) 256px bottom,#fff;
+}
+.elemens-list .tw:hover{
+    background: url(social_media.png) 384px bottom,#fff;
+}
